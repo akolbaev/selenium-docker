@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="test-search-module" parallel="tests">
+    <test name = "search-test-webdriver">
+        <parameter name ="keyword" value ="selenium"/>
+        <classes>
+            <class name ="com.searchModule.tests.SearchTest"/>
+        </classes>
+    </test>
+    <test name = "search-test-qa">
+        <parameter name ="keyword" value ="qa"/>
+        <classes>
+            <class name ="com.searchModule.tests.SearchTest"/>
+        </classes>
+    </test>
+    <test name = "search-test-python">
+        <parameter name ="keyword" value ="python"/>
+        <classes>
+            <class name ="com.searchModule.tests.SearchTest"/>
+        </classes>
+    </test>
+</suite>

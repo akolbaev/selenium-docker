@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="search-module" duration-ms="14825" started-at="2019-11-04T21:21:47 GMT" finished-at="2019-11-04T21:22:02 GMT">
+    <groups>
+    </groups>
+    <test name="search-test-python" duration-ms="14825" started-at="2019-11-04T21:21:47 GMT" finished-at="2019-11-04T21:22:02 GMT">
+      <class name="com.searchModule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.searchModule.tests.SearchTest@4439f31e]" name="setupDriver" is-config="true" duration-ms="11062" started-at="2019-11-04T21:21:47 GMT" finished-at="2019-11-04T21:21:58 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@53b32d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchModule.tests.SearchTest@4439f31e]" name="search" duration-ms="3604" started-at="2019-11-04T21:21:58 GMT" finished-at="2019-11-04T21:22:02 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[python]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.searchModule.tests.SearchTest@4439f31e]" name="closeDriver" is-config="true" duration-ms="158" started-at="2019-11-04T21:22:02 GMT" finished-at="2019-11-04T21:22:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.searchModule.tests.SearchTest -->
+    </test> <!-- search-test-python -->
+  </suite> <!-- search-module -->
+</testng-results>
