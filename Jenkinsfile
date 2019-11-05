@@ -11,15 +11,15 @@ pipeline {
         stage('Build Image') {
             steps {
                 //sh
-                sh "docker build -t='vinsdocker/selenium-docker' ."
+                sh "docker build -t='azapiture/selenium-docker' ."
             }
         }
         stage('Push Image') {
             steps {
-			    withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'pass', usernameVariable: 'user')]) {
+			    withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'Jumush312.', usernameVariable: 'azapiture')]) {
                     //sh
 			        sh "docker login --username=${user} --password=${pass}"
-			        sh "docker push vinsdocker/selenium-docker:latest"
+			        sh "docker push azapiture/selenium-docker:latest"
 			    }
             }
         }
